@@ -1,0 +1,127 @@
+@media screen and (max-width:1200px) {
+.city-box{
+        font-size: 95%;
+    }
+    .steps{
+       font-size: 90%;        
+    }
+}
+@media screen and (max-width:1024px){
+body{
+    font-size: 18px;
+}
+.logo{
+    margin-left: 0;
+}
+h1 {
+     font-size: 190%;
+}
+.mbl-img {
+    width: 70%;
+}
+.signup-section {
+    padding: 50px 0px;
+    }
+    .signup-section  .row {
+     max-width: 100%;
+    }
+    .contactus-section {
+    padding: 50px 0px;
+    }  
+    .contact-form {
+        width: 100%;
+    }  
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 10px;
+    }
+    .footer-links li {
+      padding: 15px;
+    }
+    .customers-section h2 {
+        font-size: 170%;
+    }
+}
+@media screen and (max-width:768px){
+    body{
+        font-size: 16px;   
+    }
+    .col{
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+    h1 {
+        font-size: 180%;
+    }
+    h2 {
+        font-size: 150%;
+       word-spacing: 2px;
+        letter-spacing: 1px;
+    }
+    .btn-colored:link,.btn-colored:visited{
+        padding: 6px 20px;
+    }
+    .btn-outline:link,.btn-outline:visited{
+        padding: 6px 18px;
+    }
+.logo {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  .main-nav {
+    float: none;
+}
+.main-nav li {
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.long-copy {
+    width: 95%;
+    margin-left: 3%;
+}
+.mbl-img {
+    display: block;
+    float: none;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom:30px ;
+}
+.steps {
+    font-size: 95%;
+    margin-bottom: 20px;
+}
+.w-90{
+    width: 90%;
+}
+.steps div {
+    height: 42px;
+    width: 42px;
+   padding: 10px;
+}
+.cities-section {
+    padding: 50px 0;
+}
+.city-box:not(:nth-child(4))
+ {   
+    margin-bottom: 30px;
+}
+.customer-box{
+    padding:20px 0;
+}
+.plan-box {
+    margin-bottom:20px;
+}
+.contact-form {
+    width: 70%;
+}
+.mbl_margin{
+margin:10px auto;
+}
+
+}
+@media screen and (max-width:480px){
+      .contact-form {width: 100%; }
+}
